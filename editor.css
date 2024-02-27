@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*
+    EDITOR
+*/
+
+.editorDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 193);
+
+    width: 50%;
+    padding: 2rem;
+}
+
+.editor_questDiv {
+    background-color: rgb(255, 255, 203);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 15px;
+    margin: 10px;
+    margin-right: 50px;
+}
+
+.editor_provaTitle {
+    font-size: 2em;
+    padding: 3px;
+    text-indent: 5px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    border: #AAA 1px solid;
+    border-radius: 10px;
+}
+
+/* .editor_questNum {
+    margin-top: 2rem;
+} */
+
+.editor_questTitle {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(100% - 2rem);
+    height: fit-content;
+
+    padding: 1rem;
+
+    background-color: white;
+    border: #AAA 1px solid;
+    border-radius: 10px;
+}
+
+.editor_questID {
+    margin-top:0;
+    color:#777;
+}
+
+.editor_optsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.editor_optDiv {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.editor_optValue {
+    width: 3.125rem;
+    height: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2ch;
+    text-align: center;
+
+    background-color: white;
+    border: #AAA 1px solid;
+    border-radius: 10px;
+}
+
+.editor_optRemoveBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    border: black 1px solid;
+    border-radius: 999px;
+
+    font-weight: bolder;
+    min-width: 2rem;
+    height: 2rem;
+
+}
+.editor_optRemoveBtn:hover {
+    background-color: darkred;
+}
+
+.editor_optText {
+    padding: .6rem;
+    margin: 0;
+
+    background-color: white;
+    border: #AAA 1px solid;
+    border-radius: 10px;
+
+    width: 100%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

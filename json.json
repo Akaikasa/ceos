@@ -1,0 +1,61 @@
+{
+    "content": {
+        "name": "Prova Exemplo",
+        "questions": [
+            {
+                "id": 2,
+                "body": "<p>(UFG-2013) Leia as informações a seguir: <br/>Em meados do século XVIII, James Watt patenteou na Inglaterra seu invento, sobre o qual escreveu a seu pai: “O negócio a que me dedico agora se tornou um grande sucesso. A máquina de fogo que eu inventei está funcionando e obtendo uma resposta muito melhor do que qualquer outra que tenha sido inventada até agora”.<br/>A revolução histórica relacionada ao texto, a fonte primária de energia utilizada em tal máquina e a consequência ambiental de seu uso são, respectivamente:</p>",
+                "options": [
+                    {
+                        "id": 0,
+                        "content": "puritana, gás natural e aumento na ocorrência de inversão térmica."
+                    },
+                    {
+                        "id": 1,
+                        "content": "gloriosa, petróleo e destruição da camada de ozônio."
+                    },
+                    {
+                        "id": 2,
+                        "content": "gloriosa, carvão mineral e aumento do processo de desgelo das calotas polares."
+                    },
+                    {
+                        "id": 3,
+                        "content": "industrial, gás natural e redução da umidade atmosférica."
+                    },
+                    {
+                        "id": 4,
+                        "content": "industrial, carvão mineral e aumento da poluição atmosférica."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "body": "<p>(Aman-2015) O acúmulo de capitais, a modernização da agricultura, a disponibilidade de mão de obra e de recursos naturais e a força do puritanismo ajudam a explicar o pioneirismo da __________ na Revolução Industrial. <br> Das opções abaixo listadas, o país que melhor preenche o espaço acima é:</p>",
+                "options": [
+                    {
+                        "id": 0,
+                        "content": "Alemanha"
+                    },
+                    {
+                        "id": 1,
+                        "content": "Holanda"
+                    },
+                    {
+                        "id": 2,
+                        "content": "Itália"
+                    },
+                    {
+                        "id": 3,
+                        "content": "Inglaterra"
+                    },
+                    {
+                        "id": 4,
+                        "content": "Espanha"
+                    }
+                ]
+            }
+        ]
+    },
+    "date": 1708386339360,
+    "prod": false
+}
