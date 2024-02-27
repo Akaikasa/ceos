@@ -6,13 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teste</title>
     <link rel="stylesheet" href="client.css">
-    <link rel="stylesheet" href="editor.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     <script src="client.js"></script>
     
-    <script src="showdown.min.js"></script>
-    <script src="editor.js"></script>
+    <script>
+        // start client.js
+
+        var provaDiv = document.createElement("div");
+        provaDiv.id = "provaDiv";
+        provaDiv.className = "provaDiv";
+        document.body.appendChild(provaDiv);
+
+        fetch("json.json")
+            .then((result) => result.json())
+            .then((result) => result.content)
+            .then(render);
+    </script>
 </body>
 </html>

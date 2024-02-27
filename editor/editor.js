@@ -72,6 +72,7 @@ function setup_editor(prova) {
 
             var optValue = document.createElement("input");
             optValue.type = "number";
+            optValue.placeholder = "Valor";
             optValue.className = "editor_optValue";
             optValue.value = option.value;
 
@@ -104,8 +105,8 @@ function setup_editor(prova) {
             };
 
             optsDiv.appendChild(optDiv);
-            optDiv.appendChild(optValue);
             optDiv.appendChild(optText);
+            optDiv.appendChild(optValue);
             optDiv.appendChild(optRemoveBtn);
         });
     });
